@@ -1,0 +1,61 @@
+# ---- secrets / keys (never publish) ----
+*.pem
+*.key
+*.p12
+*.pfx
+*.ppk
+id_rsa*
+id_ed25519*
+*_github
+*_github.pub
+known_hosts
+authorized_keys
+.netrc
+.env
+.env.*
+
+# ---- agent / tool state (session logs, task output) ----
+.pi/
+.pi
+.agents/
+.claude/
+.vscode/
+.idea/
+
+# ---- temp / scratch ----
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.swp
+*~
+core
+*.pid
+*_serve.py
+*_served.html
+*.pre_b64
+raw13g_*
+
+# ---- OS junk ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ---- keep DELIBERATELY: the payloads this site exists to serve ----
+!patches/*.bin
+!payload2.bin
+!*.js
+!*.png
+!*.appcache
+!*.html
